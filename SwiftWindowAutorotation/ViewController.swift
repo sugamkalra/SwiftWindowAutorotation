@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Added by Sugam - Autorotation Flag
+    var isPresented = true
 
     override func viewDidLoad() {
         super.viewDidLoad()

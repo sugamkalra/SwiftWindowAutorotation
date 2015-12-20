@@ -19,6 +19,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    /**
+     orientation support
+     */
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+
+    
+    // Mark - To Solve the problem of Auto Rotation
+    
+    // Added by Sugam - Remedy of Autorotation
+    
+    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> UIInterfaceOrientationMask
+    {
+        if self.window?.rootViewController?.presentedViewController?.childViewControllers.first is ViewController
+        {
+            
+            let  vcLandscapeNavigation = self.window?.rootViewController?.presentedViewController as! LandscapeNavigationController
+            
+            let vc = vcLandscapeNavigation.childViewControllers.first as! ViewController
+            
+            if vc.isPresented
+            {
+                return UIInterfaceOrientationMask.Landscape;
+            }
+            else
+            {
+                return UIInterfaceOrientationMask.Portrait;
+            }
+        }
+        else
+        {
+            return UIInterfaceOrientationMask.Portrait;
+        }
+        
+    }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -106,6 +144,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+    
+    
 
 }
 

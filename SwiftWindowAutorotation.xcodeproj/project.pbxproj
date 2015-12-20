@@ -15,6 +15,7 @@
 		15011EDC1C26B77500FCB66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15011EDA1C26B77500FCB66E /* LaunchScreen.storyboard */; };
 		15011EE71C26B77500FCB66E /* SwiftWindowAutorotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011EE61C26B77500FCB66E /* SwiftWindowAutorotationTests.swift */; };
 		15011EF21C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011EF11C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift */; };
+		15011F031C26B7E300FCB66E /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011F021C26B7E300FCB66E /* NavigationControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15011EED1C26B77500FCB66E /* SwiftWindowAutorotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWindowAutorotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15011EF11C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWindowAutorotationUITests.swift; sourceTree = "<group>"; };
 		15011EF31C26B77500FCB66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15011F021C26B7E300FCB66E /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		15011ECD1C26B77500FCB66E /* SwiftWindowAutorotation */ = {
 			isa = PBXGroup;
 			children = (
+				15011EFF1C26B7C100FCB66E /* Autorotation */,
 				15011ECE1C26B77500FCB66E /* AppDelegate.swift */,
 				15011ED01C26B77500FCB66E /* ViewController.swift */,
 				15011ED21C26B77500FCB66E /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				15011EF31C26B77500FCB66E /* Info.plist */,
 			);
 			path = SwiftWindowAutorotationUITests;
+			sourceTree = "<group>";
+		};
+		15011EFF1C26B7C100FCB66E /* Autorotation */ = {
+			isa = PBXGroup;
+			children = (
+				15011F021C26B7E300FCB66E /* NavigationControllers.swift */,
+			);
+			name = Autorotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15011ED71C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld in Sources */,
+				15011F031C26B7E300FCB66E /* NavigationControllers.swift in Sources */,
 				15011ED11C26B77500FCB66E /* ViewController.swift in Sources */,
 				15011ECF1C26B77500FCB66E /* AppDelegate.swift in Sources */,
 			);
