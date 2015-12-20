@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15011ECF1C26B77500FCB66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011ECE1C26B77500FCB66E /* AppDelegate.swift */; };
+		15011ED11C26B77500FCB66E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011ED01C26B77500FCB66E /* ViewController.swift */; };
+		15011ED41C26B77500FCB66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15011ED21C26B77500FCB66E /* Main.storyboard */; };
+		15011ED71C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15011ED51C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld */; };
+		15011ED91C26B77500FCB66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15011ED81C26B77500FCB66E /* Assets.xcassets */; };
+		15011EDC1C26B77500FCB66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15011EDA1C26B77500FCB66E /* LaunchScreen.storyboard */; };
+		15011EE71C26B77500FCB66E /* SwiftWindowAutorotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011EE61C26B77500FCB66E /* SwiftWindowAutorotationTests.swift */; };
+		15011EF21C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15011EF11C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15011EE31C26B77500FCB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15011EC31C26B77500FCB66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15011ECA1C26B77500FCB66E;
+			remoteInfo = SwiftWindowAutorotation;
+		};
+		15011EEE1C26B77500FCB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15011EC31C26B77500FCB66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15011ECA1C26B77500FCB66E;
+			remoteInfo = SwiftWindowAutorotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15011ECB1C26B77500FCB66E /* SwiftWindowAutorotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWindowAutorotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15011ECE1C26B77500FCB66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15011ED01C26B77500FCB66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15011ED31C26B77500FCB66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15011ED61C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftWindowAutorotation.xcdatamodel; sourceTree = "<group>"; };
+		15011ED81C26B77500FCB66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15011EDB1C26B77500FCB66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15011EDD1C26B77500FCB66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15011EE21C26B77500FCB66E /* SwiftWindowAutorotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWindowAutorotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15011EE61C26B77500FCB66E /* SwiftWindowAutorotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWindowAutorotationTests.swift; sourceTree = "<group>"; };
+		15011EE81C26B77500FCB66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15011EED1C26B77500FCB66E /* SwiftWindowAutorotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWindowAutorotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15011EF11C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWindowAutorotationUITests.swift; sourceTree = "<group>"; };
+		15011EF31C26B77500FCB66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15011EC81C26B77500FCB66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EDF1C26B77500FCB66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EEA1C26B77500FCB66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15011EC21C26B77500FCB66E = {
+			isa = PBXGroup;
+			children = (
+				15011ECD1C26B77500FCB66E /* SwiftWindowAutorotation */,
+				15011EE51C26B77500FCB66E /* SwiftWindowAutorotationTests */,
+				15011EF01C26B77500FCB66E /* SwiftWindowAutorotationUITests */,
+				15011ECC1C26B77500FCB66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15011ECC1C26B77500FCB66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15011ECB1C26B77500FCB66E /* SwiftWindowAutorotation.app */,
+				15011EE21C26B77500FCB66E /* SwiftWindowAutorotationTests.xctest */,
+				15011EED1C26B77500FCB66E /* SwiftWindowAutorotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15011ECD1C26B77500FCB66E /* SwiftWindowAutorotation */ = {
+			isa = PBXGroup;
+			children = (
+				15011ECE1C26B77500FCB66E /* AppDelegate.swift */,
+				15011ED01C26B77500FCB66E /* ViewController.swift */,
+				15011ED21C26B77500FCB66E /* Main.storyboard */,
+				15011ED81C26B77500FCB66E /* Assets.xcassets */,
+				15011EDA1C26B77500FCB66E /* LaunchScreen.storyboard */,
+				15011EDD1C26B77500FCB66E /* Info.plist */,
+				15011ED51C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld */,
+			);
+			path = SwiftWindowAutorotation;
+			sourceTree = "<group>";
+		};
+		15011EE51C26B77500FCB66E /* SwiftWindowAutorotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				15011EE61C26B77500FCB66E /* SwiftWindowAutorotationTests.swift */,
+				15011EE81C26B77500FCB66E /* Info.plist */,
+			);
+			path = SwiftWindowAutorotationTests;
+			sourceTree = "<group>";
+		};
+		15011EF01C26B77500FCB66E /* SwiftWindowAutorotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15011EF11C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift */,
+				15011EF31C26B77500FCB66E /* Info.plist */,
+			);
+			path = SwiftWindowAutorotationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15011ECA1C26B77500FCB66E /* SwiftWindowAutorotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15011EF61C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotation" */;
+			buildPhases = (
+				15011EC71C26B77500FCB66E /* Sources */,
+				15011EC81C26B77500FCB66E /* Frameworks */,
+				15011EC91C26B77500FCB66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftWindowAutorotation;
+			productName = SwiftWindowAutorotation;
+			productReference = 15011ECB1C26B77500FCB66E /* SwiftWindowAutorotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15011EE11C26B77500FCB66E /* SwiftWindowAutorotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15011EF91C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotationTests" */;
+			buildPhases = (
+				15011EDE1C26B77500FCB66E /* Sources */,
+				15011EDF1C26B77500FCB66E /* Frameworks */,
+				15011EE01C26B77500FCB66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15011EE41C26B77500FCB66E /* PBXTargetDependency */,
+			);
+			name = SwiftWindowAutorotationTests;
+			productName = SwiftWindowAutorotationTests;
+			productReference = 15011EE21C26B77500FCB66E /* SwiftWindowAutorotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15011EEC1C26B77500FCB66E /* SwiftWindowAutorotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15011EFC1C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotationUITests" */;
+			buildPhases = (
+				15011EE91C26B77500FCB66E /* Sources */,
+				15011EEA1C26B77500FCB66E /* Frameworks */,
+				15011EEB1C26B77500FCB66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15011EEF1C26B77500FCB66E /* PBXTargetDependency */,
+			);
+			name = SwiftWindowAutorotationUITests;
+			productName = SwiftWindowAutorotationUITests;
+			productReference = 15011EED1C26B77500FCB66E /* SwiftWindowAutorotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15011EC31C26B77500FCB66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					15011ECA1C26B77500FCB66E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					15011EE11C26B77500FCB66E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15011ECA1C26B77500FCB66E;
+					};
+					15011EEC1C26B77500FCB66E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15011ECA1C26B77500FCB66E;
+					};
+				};
+			};
+			buildConfigurationList = 15011EC61C26B77500FCB66E /* Build configuration list for PBXProject "SwiftWindowAutorotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15011EC21C26B77500FCB66E;
+			productRefGroup = 15011ECC1C26B77500FCB66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15011ECA1C26B77500FCB66E /* SwiftWindowAutorotation */,
+				15011EE11C26B77500FCB66E /* SwiftWindowAutorotationTests */,
+				15011EEC1C26B77500FCB66E /* SwiftWindowAutorotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15011EC91C26B77500FCB66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15011EDC1C26B77500FCB66E /* LaunchScreen.storyboard in Resources */,
+				15011ED91C26B77500FCB66E /* Assets.xcassets in Resources */,
+				15011ED41C26B77500FCB66E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EE01C26B77500FCB66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EEB1C26B77500FCB66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15011EC71C26B77500FCB66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15011ED71C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld in Sources */,
+				15011ED11C26B77500FCB66E /* ViewController.swift in Sources */,
+				15011ECF1C26B77500FCB66E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EDE1C26B77500FCB66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15011EE71C26B77500FCB66E /* SwiftWindowAutorotationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15011EE91C26B77500FCB66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15011EF21C26B77500FCB66E /* SwiftWindowAutorotationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15011EE41C26B77500FCB66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15011ECA1C26B77500FCB66E /* SwiftWindowAutorotation */;
+			targetProxy = 15011EE31C26B77500FCB66E /* PBXContainerItemProxy */;
+		};
+		15011EEF1C26B77500FCB66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15011ECA1C26B77500FCB66E /* SwiftWindowAutorotation */;
+			targetProxy = 15011EEE1C26B77500FCB66E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15011ED21C26B77500FCB66E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15011ED31C26B77500FCB66E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15011EDA1C26B77500FCB66E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15011EDB1C26B77500FCB66E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15011EF41C26B77500FCB66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15011EF51C26B77500FCB66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15011EF71C26B77500FCB66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftWindowAutorotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15011EF81C26B77500FCB66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftWindowAutorotation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15011EFA1C26B77500FCB66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftWindowAutorotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWindowAutorotation.app/SwiftWindowAutorotation";
+			};
+			name = Debug;
+		};
+		15011EFB1C26B77500FCB66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftWindowAutorotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWindowAutorotation.app/SwiftWindowAutorotation";
+			};
+			name = Release;
+		};
+		15011EFD1C26B77500FCB66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftWindowAutorotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftWindowAutorotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15011EFE1C26B77500FCB66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftWindowAutorotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftWindowAutorotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftWindowAutorotation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15011EC61C26B77500FCB66E /* Build configuration list for PBXProject "SwiftWindowAutorotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15011EF41C26B77500FCB66E /* Debug */,
+				15011EF51C26B77500FCB66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15011EF61C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15011EF71C26B77500FCB66E /* Debug */,
+				15011EF81C26B77500FCB66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15011EF91C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15011EFA1C26B77500FCB66E /* Debug */,
+				15011EFB1C26B77500FCB66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15011EFC1C26B77500FCB66E /* Build configuration list for PBXNativeTarget "SwiftWindowAutorotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15011EFD1C26B77500FCB66E /* Debug */,
+				15011EFE1C26B77500FCB66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15011ED51C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15011ED61C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodel */,
+			);
+			currentVersion = 15011ED61C26B77500FCB66E /* SwiftWindowAutorotation.xcdatamodel */;
+			path = SwiftWindowAutorotation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15011EC31C26B77500FCB66E /* Project object */;
+}
